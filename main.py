@@ -1,5 +1,5 @@
 # oke this program by python language
-import os,sys
+import os,sys,time
 #+++++++++++++++++// Tool
 def tool():
     os.system('clear')
