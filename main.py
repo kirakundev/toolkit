@@ -1,5 +1,12 @@
 # oke this program by python language
 import os,sys
+#+++++++++++++++++// Tool
+def tool():
+    os.system('clear')
+    print """
+            [#] Welcome the toolkit [#]
+            
+    """
 def updatae():
     os.system('git pull')
 def main():
@@ -19,3 +26,17 @@ def main():
         """
 main()
 pil = input("pilih:")
+if pil == 1:
+    os.system('baah packagess/install.sh')
+elif pil == 2:
+    tool()
+elif pil == 3:
+    update()
+elif pil == 4:
+    about()
+elif pil == 0:
+    print "Exit program !"
+    time.sleep(1)
+    sys.exit()
+else:
+    print "Wrong input !"
