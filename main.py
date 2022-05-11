@@ -10,7 +10,7 @@ def tool():
         Menu Toolkit:
             
     """
-def updatae():
+def update():
     os.system('git pull')
 def main():
     os.system('clear')
