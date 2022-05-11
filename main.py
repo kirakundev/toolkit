@@ -11,7 +11,9 @@ def tool():
             
     """
 def update():
-    os.system('git pull && python2 main.py')
+    os.system('git pull')
+    print "[*]Successfull updateing ..."
+    os.system('python2 main.py')
 def main():
     os.system('clear')
     print """
