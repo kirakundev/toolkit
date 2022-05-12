@@ -33,7 +33,7 @@ def main():
 main()
 pil = input("pilih:")
 if pil == 1:
-    os.system('baah packagess/install.sh')
+    os.system('bash packagess/install.sh')
 elif pil == 2:
     tool()
 elif pil == 3:
