@@ -35,6 +35,10 @@ def update():
     print "[*]Successfull updateing ..."
     time.sleep (2)
     os.system('python2 main.py')
+#++++++++///Batas suci
+def about():
+    os.system('bash asst/about.sh')
+#+++++++/// Batas suci
 def main():
     os.system('clear')
     print """
