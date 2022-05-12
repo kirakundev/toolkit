@@ -4,5 +4,5 @@ echo """
      """
     read -p "[?]Prees enter to back home..."
     
-    python2  ../main.py
+    cd .. && python2 main.py
     
