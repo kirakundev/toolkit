@@ -13,7 +13,7 @@ def tool():
 def update():
     os.system('git pull')
     print "[*]Successfull updateing ..."
-    time.sleep (1)
+    time.sleep (2)
     os.system('python2 main.py')
 def main():
     os.system('clear')
