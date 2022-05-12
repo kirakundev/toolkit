@@ -8,8 +8,25 @@ def tool():
         ___________________________________
         
         Menu Toolkit:
-            
+          (1).Termux-DE
+          (2).Proot-DE with distro
+          (3).Penetration testing
+          (4).other tool
+          (0).back to home
     """
+    tool = input("Pilih:")
+    if tool == 1:
+      bash app/installer/termux-de/main.sh 
+    elif tool == 2:
+      bash app/installer/proot-de/main.sh 
+    elif tool == 3:
+       bash app/pentest/main.py 
+    elif tool == 4:
+       bash app/main.sh 
+    elif tool == 0:
+       os.system('python2 main.py')
+#=++++++++///Batas suci
+      
 def update():
     os.system('git pull')
     print "[*]Successfull updateing ..."
