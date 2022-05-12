@@ -16,15 +16,18 @@ def tool():
     """
     tool = input("Pilih:")
     if tool == 1:
-      bash app/installer/termux-de/main.sh 
+      os.syatem('bash app/installer/termux-de/main.sh') 
     elif tool == 2:
-      bash app/installer/proot-de/main.sh 
+      os.system('bash app/installer/proot-de/main.sh')
     elif tool == 3:
-       bash app/pentest/main.py 
+       os.system('python2 app/pentest/main.py')
     elif tool == 4:
-       bash app/main.sh 
+       os.system('python2 app/main.py')
     elif tool == 0:
        os.system('python2 main.py')
+    else:
+        print "Wrong input !"
+    
 #=++++++++///Batas suci
       
 def update():
