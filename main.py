@@ -50,7 +50,7 @@ def main():
              (1).Inatall require packagess
              (2).Start toolkit
              (3).Update
-             (5).About
+             (4).About
              (0).Exit program
 
         """
