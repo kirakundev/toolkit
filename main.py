@@ -1,4 +1,11 @@
 # oke this program by python language
+# this program toolkit created by Ers ID 
+# This project is copyrighted under MIT license 
+# This project is open source
+# please read the license ! 
+# not for sale
+# please don't recode my project 
+# recode will not make you mastah or master 
 import os,sys,time
 #+++++++++++++++++// Tool
 def tool():
