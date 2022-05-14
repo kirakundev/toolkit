@@ -14,6 +14,7 @@ def cs():
 #==+++++//batas suci
 
 def ot():
+    os.system('clear')
     print """
           [#] Other Toolkit [#]
          
