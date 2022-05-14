@@ -37,6 +37,8 @@ def tool():
        os.system('python2 main.py')
     else:
         print "Wrong input !"
+        time.sleep(1)
+        os.system('python2 main.py')
     
 #=++++++++///Batas suci
       
@@ -83,3 +85,6 @@ elif pil == 0:
     sys.exit()
 else:
     print "Wrong input !"
+    time.sleep(1)
+    os.system('python2 main.py')
+    
