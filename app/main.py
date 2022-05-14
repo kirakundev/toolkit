@@ -25,4 +25,6 @@ def ot():
           (5).Connection stable
           (0).Back home
           """
-    ot = input("Chosse:")
+    ot()
+    otr = input("Chosse:")
+    
