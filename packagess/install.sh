@@ -20,5 +20,4 @@ pip2 install colorama
 echo "[♧]Installing Done..."
 sleep 2
 echo "[+]Setup the toolkit..."
-cd ..
 python2 main.py 
