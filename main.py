@@ -54,6 +54,9 @@ def main():
     print """
          
             [#] Warceu Project Toolkit [#]
+                     Version:0.01
+                  Created by Ers ID 
+                  ~ Copyrigth@2022 ~
         ______________________________________
          
         Menu:
