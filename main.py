@@ -12,6 +12,9 @@ def tool():
     os.system('clear')
     print """
             [#] Welcome the toolkit [#]
+                   Version:0.01 
+                Created by Ers ID 
+                ~ Copyrigth@2022 ~
         ___________________________________
         
         Menu Toolkit:
@@ -52,14 +55,14 @@ def main():
          
             [#] Warceu Project Toolkit [#]
         ______________________________________
-
+         
         Menu:
              (1).Inatall require packagess
              (2).Start toolkit
              (3).Update
              (4).About
              (0).Exit program
-
+         
         """
 main()
 pil = input("pilih:")
