@@ -10,5 +10,3 @@ echo $"""
          0.exit 
          """
          read -p "chosse: " cos;
-
-         

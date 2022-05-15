@@ -16,7 +16,7 @@ def cs():
 def ot():
     os.system('clear')
     print """
-          [#] Other Toolkit [#]
+                [#] Other Toolkit [#]
          
         Menu :
           (1).Bot 
@@ -28,3 +28,17 @@ def ot():
           """
 ot()
 otr = input("chosse:")
+if otr == 1:
+    bot()
+elif otr == 2:
+    spam()
+elif otr == 3:
+    scw()
+elif otr == 4:
+    pg()
+elif otr == 5:
+    cs()
+elif otr == 0:
+    python2 main.py
+else:
+    print "wrong input!"
