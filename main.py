@@ -26,7 +26,7 @@ def tool():
     """
     tool = input("Pilih:")
     if tool == 1:
-      os.syatem('bash app/installer/termux-de/main.sh') 
+      os.system('bash app/installer/termux-de/main.sh') 
     elif tool == 2:
       os.system('bash app/installer/proot-de/main.sh')
     elif tool == 3:
