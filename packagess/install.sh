@@ -1,5 +1,5 @@
 clear
-echo "[*]Installing basic packages..."
+echo  "[*]Installing basic packages..."
 apt update -y 
 apt upgrade -y
 apt install root-repo -y
