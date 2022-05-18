@@ -73,7 +73,7 @@ elif pil == 2:
             print cl.end + " [" + cl.grn + "MENU TERMUX-DE" + cl.end + "]:"
             print ""
             print cl.end + "    (1)." + cl.cyn + "Termux-DE by Ers ID" + cl.end + "(Sedang dalam perbaikan.)"
-            print cl.end + "    (2)." + cl.cyn + "Termux-DE by Adi160x"
+            print cl.end + "    (2)." + cl.cyn + "Termux-DE by Adi1090x"
             print cl.end + "    (3)." + cl.cyn + "Termux-DE by Yisuz7u7"
             print cl.end + "    (0)." + cl.red + "Back to home"
             print ""
