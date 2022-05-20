@@ -88,8 +88,8 @@ elif pil == 2:
         td = input (cl.end + "[" + cl.grn + "#" + cl.end + "]" + cl.cyn + "Chosse: " + cl.grn)
         if td == 1:
             os.system('clear')
-            lonte "Mohon maaf peoject termux deskto ini sedang dalam"
-            lonte "perbaikan,mohon tunggu update an selanjutnya"
+            lonte"Mohon maaf peoject termux deskto ini sedang dalam"
+            lonte"perbaikan,mohon tunggu update an selanjutnya"
             raw_input("Enter to back home")
             os.system('python2 main.py')
         elif td == 2:
