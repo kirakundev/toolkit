@@ -9,7 +9,7 @@
  please don't recode my project  
  recode will not make you mastah or master 
 """
-import os,sys,time
+import os,sys,time,random
 class cl:
     red="\033[1;31m"
     grn="\033[1;32m"
@@ -19,6 +19,13 @@ class cl:
     cyn="\033[1;36m"
     end="\033[0m"
     mir="\033[3;37m"
+#++++++++++++++//Batas suci
+def lonte(s):
+    for c in s + '\n':
+        sys.stdout.write(c)
+        sys.stdout.flush()
+#kecepatan lumpat :v
+        time.sleep(random.random() * 0.1)
 #+++++++++++++//batas suci
 def update():
     os.system('clear')
@@ -81,7 +88,7 @@ elif pil == 2:
         td = input (cl.end + "[" + cl.grn + "#" + cl.end + "]" + cl.cyn + "Chosse: " + cl.grn)
         if td == 1:
             os.system('clear')
-            print cl.ylw + """
+            lonte cl.ylw + """
             Mohon maaf Termux Desktop ini sedang dalam perbaikan 
             tunggu update an selanjut nya
             """
