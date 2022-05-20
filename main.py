@@ -89,8 +89,9 @@ elif pil == 2:
             os.system('python2 main.py')
         elif td == 2:
             os.system('clear')
-            print "termux-de 2 is coming"
+            print "Please wait..."
             time.sleep(2)
+            os.system('bash app/installer/termux-de/td1.sh')
             os.system('python2 main.py')
         elif td == 3:
             os.system('clear')
