@@ -20,7 +20,7 @@ class cl:
     end="\033[0m"
     mir="\033[3;37m"
 #++++++++++++++//Batas suci
-def lonte(s):
+def mengetik(s):
     for c in s + '\n':
         sys.stdout.write(c)
         sys.stdout.flush()
@@ -88,8 +88,8 @@ elif pil == 2:
         td = input (cl.end + "[" + cl.grn + "#" + cl.end + "]" + cl.cyn + "Chosse: " + cl.grn)
         if td == 1:
             os.system('clear')
-            lonte"Mohon maaf peoject termux deskto ini sedang dalam"
-            lonte"perbaikan,mohon tunggu update an selanjutnya"
+            mengetik"Mohon maaf peoject termux deskto ini sedang dalam"
+            mengetik"perbaikan,mohon tunggu update an selanjutnya"
             raw_input("Enter to back home")
             os.system('python2 main.py')
         elif td == 2:
