@@ -88,7 +88,7 @@ elif pil == 2:
         td = input (cl.end + "[" + cl.grn + "#" + cl.end + "]" + cl.cyn + "Chosse: " + cl.grn)
         if td == 1:
             os.system('clear')
-            lonte cl.ylw + """
+            lonte """
             Mohon maaf Termux Desktop ini sedang dalam perbaikan 
             tunggu update an selanjut nya
             """
