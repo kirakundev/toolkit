@@ -95,7 +95,7 @@ elif pil == 2:
             os.system('python2 main.py')
         elif td == 3:
             os.system('clear')
-            print "termux-de 3 is coming"
+            os.system('bash app/installer/termux-de/td2.sh')
             time.sleep(2)
             os.system('python2 main.py')
         elif td == 0:
