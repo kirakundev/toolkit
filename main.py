@@ -92,12 +92,11 @@ elif pil == 2:
             print "Please wait..."
             time.sleep(2)
             os.system('bash app/installer/termux-de/td1.sh')
-            os.system('python2 main.py')
         elif td == 3:
             os.system('clear')
-            os.system('bash app/installer/termux-de/td2.sh')
+            print "Please wait..."
             time.sleep(2)
-            os.system('python2 main.py')
+            os.system('bash app/installer/termux-de/td2.sh')
         elif td == 0:
             os.system('python2 main.py')
         else:
