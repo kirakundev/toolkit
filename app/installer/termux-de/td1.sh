@@ -1,1 +1,2 @@
-echo "halo"
+cd $HOME
+wget 
