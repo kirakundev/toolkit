@@ -51,6 +51,7 @@ def main():
     print cl.end + "     (2)." + cl.cyn + "Start"
     print cl.end + "     (3)." + cl.cyn + "Update"
     print cl.end + "     (4)." + cl.cyn + "About"
+    print cl.end + "     (5)." + cl.cyn + "Support me with donate :)"
     print cl.end + "     (0)." + cl.red + "Exit" + cl.end  
     print ""
 main()
@@ -120,6 +121,9 @@ elif pil == 3:
     update()
 elif pil == 4:
     about()
+elif pil == 5:
+    os.system('xdg-open https://paypal.me/yagamiid')
+    os.system('python2 main.py')
 elif pil == 0:
     print cl.ylw + "Exit program"
     time.sleep(3)
